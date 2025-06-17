@@ -3,7 +3,7 @@
 This project implements a machine learning pipeline to detect fraudulent credit card transactions. It includes scripts for preprocessing data, training the model, testing, and a basic deployment simulation.
 
 ## Project Structure
-
+```
 .
 ├── .vscode/ # VS Code settings (optional)
 ├── pycache/ # Python bytecode cache
@@ -17,7 +17,7 @@ This project implements a machine learning pipeline to detect fraudulent credit 
 ├── train_model.py # Model training script
 ├── .gitignore # Git ignore configuration
 └── README.md # Project documentation
-
+```
 
 ## Requirements
 
@@ -28,34 +28,34 @@ This project implements a machine learning pipeline to detect fraudulent credit 
 - joblib (for model saving/loading)
 
 Install dependencies using pip:
-
+```
 pip install -r requirements.txt
-
+```
 ## How to Run
 
 1. **Preprocess the data**
-
+```
 python preprocess.py
-
+```
 
 This will clean and prepare the `creditcard.csv` dataset for model training.
 
 2. **Train the model**
-
+```
 python train_model.py
-
+```
 This will train a machine learning model and save it to the `models/` directory.
 
 3. **Test the model**
-
+```
 python test.py
-
+```
 This will evaluate the trained model's performance on the test set.
 
 4. **Deploy and predict**
-
+```
 python deployment.py
-
+```
 This simulates a deployment scenario and makes predictions using the saved model.
 
 ## Notes
